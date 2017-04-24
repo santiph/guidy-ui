@@ -1,0 +1,12 @@
+@import '../node_modules/bootstrap/scss/_variables';
+$icon-font-path: '../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Custom Variables
+$cyan:        rgb(0,213,217);
+
+$navbar-border-right: 1px solid $gray-lighter;
+
+// Override Bootstrap variables
+$body-bg:       $cyan;
+$body-color:    $white;
+$font-family-base: 'Lato';

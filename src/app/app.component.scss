@@ -1,0 +1,24 @@
+@import '../_variables';
+// Layout
+
+// Navigation Bar
+nav {
+    &.hidden-xs-down {
+        background-color: $white;
+        border-right: $navbar-border-right;
+        bottom: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        position: fixed;
+        top: 0;
+    }
+
+    .category-title {
+        font-weight: bold;
+    }
+
+    
+}
+// Main section
+main {
+}
